@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Study Timer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #c471f5, #fa71cd);
+      color: #ffffff;
+    }
+    header {
+      background-color: #8000ff;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: #e040fb;
+      animation: fadeIn 1.2s ease-in;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .btn {
+      background-color: #ff4081;
+      color: white;
+      padding: 14px 30px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    .btn:hover {
+      background-color: #e91e63;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 50px 20px;
+      background: #ffffff;
+      color: #333;
+      animation: fadeInUp 1.2s ease-in;
+    }
+    .feature {
+      max-width: 300px;
+      margin: 20px;
+      padding: 25px;
+      background: #fff0f5;
+      border-radius: 12px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .feature:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    }
+    .feature h3 {
+      color: #c2185b;
+      margin-bottom: 15px;
+    }
+    footer {
+      background-color: #6a1b9a;
+      text-align: center;
+      padding: 25px;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(-20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Smart Study Timer</h1>
+  <p>Study smarter, not harder.</p>
+</header>
+
+<section class="hero">
+  <h1>Your Focus Starts Here</h1>
+  <p>Use Smart Study Timer to structure your time and beat burnout with proven Pomodoro techniques.</p>
+  <a href="#" class="btn">Download Now</a>
+</section>
+
+<section class="features">
+  <div class="feature">
+    <h3>🎯 Focus Blocks</h3>
+    <p>Set 25, 50, or custom-minute timers for focused study sessions.</p>
+  </div>
+  <div class="feature">
+    <h3>💡 Break Reminders</h3>
+    <p>Stay healthy with built-in short and long break notifications.</p>
+  </div>
+  <div class="feature">
+    <h3>📊 Progress Tracking</h3>
+    <p>View your daily and weekly streaks to stay on top of your habits.</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Smart Study Timer. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
